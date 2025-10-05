@@ -1,5 +1,5 @@
 /**
- * This module contains a bunch of utility methods for working with strings
+ * This module contains a bunch of utility methods for working with strings.
  * @module
  */
 
@@ -17,3 +17,10 @@ export { toPascalCase } from './src/toPascalCase.ts'
 export { toScreamingSnakeCase } from './src/toScreamingSnakeCase.ts'
 export { toTrainCase } from './src/toTrainCase.ts'
 export { toDotCase } from './src/toDotCase.ts'
+
+export { isPrintable } from './src/isPrintable.ts'
+export { isEmoji } from './src/isEmoji.ts'
+export { normalizeSpaces } from './src/normalizeSpaces.ts'
+export { isWhitespace } from './src/isWhitespace.ts'
+export { splitGraphemes } from './src/splitGraphemes.ts'
+export { removeDiacritics } from './src/removeDiacritics.ts'

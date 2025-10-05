@@ -15,25 +15,25 @@ A handful of commonly used string utilities.
 
 ### Case Utilities
 
- - [x] `toTitleCase(str: string, options?: { separator?: string }): string`
- - [x] `toSentenceCase(str: string, options?: { separator?: string }): string`
- - [x] `toCamelCase(str: string, options?: { separator?: string }): string`
- - [x] `toPascalCase(str: string, options?: { separator?: string }): string`
- - [x] `toSnakeCase(str: string, options?: { separator?: string }): string`
- - [x] `toScreamingSnakeCase(str: string, options?: { separator?: string }): string`
- - [x] `toTrainCase(str: string, options?: { separator?: string }): string`
- - [x] `toDotCase(str: string, options?: { separator?: string }): string`
-
-## Planned Utilities
+- [x] `toTitleCase(str: string, options?: { separator?: string }): string`
+- [x] `toSentenceCase(str: string, options?: { separator?: string }): string`
+- [x] `toCamelCase(str: string, options?: { separator?: string }): string`
+- [x] `toPascalCase(str: string, options?: { separator?: string }): string`
+- [x] `toSnakeCase(str: string, options?: { separator?: string }): string`
+- [x] `toScreamingSnakeCase(str: string, options?: { separator?: string }): string`
+- [x] `toTrainCase(str: string, options?: { separator?: string }): string`
+- [x] `toDotCase(str: string, options?: { separator?: string }): string`
 
 ### Unicode Character Utilities
 
-- [ ] `isPrintable(char: string): boolean` - detect if a char is visible (not control or formatting).
-- [ ] `isEmoji(char: string): boolean` - check if a char is an emoji.
-- [ ] `removeDiacritics(str: string): string` - strip accents/diacritics (é → e).
-- [ ] `normalizeSpaces(str: string): string` - collapse all whitespace variants (including NBSP, en/em spaces) into a single space.
-- [ ] `splitGraphemes(str: string): string[]` - split a string into visually distinct characters (grapheme clusters, needed for emojis).
-- [ ] `isWhitespace(char: string): boolean` - includes all Unicode whitespace, beyond regex's `\s`.
+- [x] `isPrintable(char: string): boolean`
+- [x] `isEmoji(char: string): boolean`
+- [x] `isWhitespace(char: string): boolean`
+- [x] `normalizeSpaces(str: string): string`
+- [x] `removeDiacritics(str: string): string`
+- [x] `splitGraphemes(str: string): string[]`
+
+## Planned Utilities
 
 ### Trimming and Padding
 
@@ -51,14 +51,14 @@ A handful of commonly used string utilities.
 
 ### Transformation
 
-- [ ] `repeatUntil(str: string, length: number): string` - repeat string until a given length.
-- [ ] `reverse(str: string): string` - reverse string correctly, accounts for unicode surrogate pairs.
-- [ ] `rotate(str: string, n: number): string` - rotate characters left/right (caesar cipher)
+- [ ] `repeatUntil(str: string, length: number): string`- repeat string until a given length.
+- [ ] `reverse(str: string): string`- reverse string correctly, accounts for unicode surrogate pairs.
+- [ ] `rotate(str: string, n: number): string`- rotate characters left/right (caesar cipher)
 
 ### Formatting and Alignment
 
-- [ ] `justifyText(str: string, width: number): string` - justification for fixed-width output.
-- [ ] `wrapText(str: string, width: number): string[]` - wrap text at word boundaries.
+- [ ] `justifyText(str: string, width: number): string`- justification for fixed-width output.
+- [ ] `wrapText(str: string, width: number): string[]`- wrap text at word boundaries.
 
 ### Validation
 
